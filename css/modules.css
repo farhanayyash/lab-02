@@ -1,0 +1,29 @@
+div h2 {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div img {
+  margin: 0;
+  position: absolute;
+  
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div p {
+  margin: 0;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: smaller;
+}
+.photo-template{
+    display: none;
+}
+#lo-engage-ext-container{
+  display: none;
+}
