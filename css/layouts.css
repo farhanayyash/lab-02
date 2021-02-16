@@ -1,9 +1,19 @@
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
 div{
   border: 2px salmon solid;
   display: inline-block;
-  width: 250px;
+  flex-basis: 250px;
   margin: 20px;
-  height: 420px;
+  min-height: 420px;
   text-align: center;
   position: relative;
   overflow: hidden;
